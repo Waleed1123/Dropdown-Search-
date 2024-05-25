@@ -1,0 +1,62 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <select name="" id="dropdown">
+
+            <option value="">23</option>
+            <option value="">23</option>
+        </select>
+        </div>
+        
+</body>
+<script src="./script.js"></script>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Search</title>
+    <style>
+        .search-container {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        select, .details {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .details {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <select id="brand" onchange="selectBrand()">
+            <option value="">Select Brand</option>
+        </select>
+        <select id="model" onchange="selectModel()" style="display:none;">
+            <option value="">Select Model</option>
+        </select>
+        <div id="details" class="details"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
